@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auth App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Authentication App</h1>
+
+    <div class="form-group">
+      <input type="email" id="email" placeholder="Email">
+      <input type="password" id="password" placeholder="Password">
+    </div>
+
+    <div class="buttons">
+      <button onclick="register()">Register</button>
+      <button onclick="login()">Login</button>
+      <button onclick="getProtected()">Get Protected Data</button>
+    </div>
+
+    <div id="response"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
